@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hero + Movie Match Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="symbol-container"></div>
+  <div id="particles-js"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles-engine"></script>
+  <script>
+    tsParticles.load("particles-js", {
+      particles: {
+        number: { value: 50 },
+        color: { value: ["#ff0000","#00ff00","#0000ff"] },
+        shape: { type: "circle" },
+        opacity: { value: 0.5 },
+        size: { value: 4 },
+        move: { enable: true, speed: 2 }
+      }
+    });
+  </script>
+
+  <h1>🎬 Tollywood Hero + Movie Matcher 🎶</h1>
+
+  <div id="controls">
+    <button id="restartBtn">🔄 Restart</button>
+    <span id="moves">Moves: 0</span>
+    <span id="timer">Time: 0s</span>
+    <span id="chances">Chances: 3</span>
+  </div>
+  <div class="game-board" id="gameBoard"></div>
+  
+  <p id="status"></p>
+
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+</body>
+</html>
