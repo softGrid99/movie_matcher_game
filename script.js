@@ -32,11 +32,11 @@ function showConfetti() {
 
 const pairs = [
   { hero: "Pawan Kalyan", movie: "Gabbar Singh", heroImg: "assests/hero/pk2.jpg", movieImg: "assests/movie/gabbar.jpg", song: "assests/song/gabbar.mp3" },
-  { hero: "Allu Arjun", movie: "Pushpa", heroImg: "assests/hero/allu.jpg", movieImg: "assests/movie/pushpa title.jpg", song: "assests/song/pushpa.mp3" },
-  { hero: "Prabhas", movie: "Baahubali", heroImg: "assests/hero/prabhas.jpg", movieImg: "assests/movie/bahu title.jpg", song: "assests/song/bahu.mp3" },
-  { hero: "Jr NTR", movie: "Devara", heroImg: "assests/hero/ntr.jpg", movieImg: "assests/movie/ntr title.jpeg", song: "assests/song/ayudha.mp3" },
-  { hero: "Ram Charan", movie: "Rangasthalam", heroImg: "assests/hero/ram1.png", movieImg: "assests/movie/ram title.jpg", song: "assests/song/ranga.mp3" },
-  { hero: "Mahesh Babu", movie: "Sarileru Neekevvaru", heroImg: "assests/hero/mb1.jpg", movieImg: "assests/movie/mb title.jpg", song: "assests/song/mb .mp3" }
+  { hero: "Allu Arjun", movie: "Pushpa", heroImg: "assests/hero/allu.jpg", movieImg: "assests/movie/pushpa_title.jpg", song: "assests/song/pushpa.mp3" },
+  { hero: "Prabhas", movie: "Baahubali", heroImg: "assests/hero/prabhas.jpg", movieImg: "assests/movie/bahu_title.jpg", song: "assests/song/bahu.mp3" },
+  { hero: "Jr NTR", movie: "Devara", heroImg: "assests/hero/ntr.jpg", movieImg: "assests/movie/ntr_title.jpeg", song: "assests/song/ayudha.mp3" },
+  { hero: "Ram Charan", movie: "Rangasthalam", heroImg: "assests/hero/ram1.png", movieImg: "assests/movie/ram_title.jpg", song: "assests/song/ranga.mp3" },
+  { hero: "Mahesh Babu", movie: "Sarileru Neekevvaru", heroImg: "assests/hero/mb1.jpg", movieImg: "assests/movie/mb_title.jpg", song: "assests/song/mb .mp3" }
 ];
 
 function startGame() {
@@ -198,3 +198,4 @@ function createSymbol() {
 setInterval(createSymbol, 200);
 document.getElementById("restartBtn").addEventListener("click", startGame);
 startGame();
+
